@@ -20,6 +20,6 @@ F:\huan\Thuc tap nhom chieu thu 4\QL HS-GV\diemTHPT\QL diem THPT\QL diem THPT\ob
 F:\huan\Thuc tap nhom chieu thu 4\QL HS-GV\diemTHPT\QL diem THPT\QL diem THPT\obj\Debug\QL_diem_THPT.Main.frmXoaMH.resources
 F:\huan\Thuc tap nhom chieu thu 4\QL HS-GV\diemTHPT\QL diem THPT\QL diem THPT\obj\Debug\QL_diem_THPT.Main.frmXoaGV.resources
 F:\huan\Thuc tap nhom chieu thu 4\QL HS-GV\diemTHPT\QL diem THPT\QL diem THPT\obj\Debug\QL_diem_THPT.Main.frmSuaGV.resources
-C:\Users\Hai-Dong\Documents\GitHub\my-frirst-project\QL diem THPT\QL diem THPT\bin\Debug\QL diem THPT.exe.config
-C:\Users\Hai-Dong\Documents\GitHub\my-frirst-project\QL diem THPT\QL diem THPT\obj\Debug\QL diem THPT.exe
-C:\Users\Hai-Dong\Documents\GitHub\my-frirst-project\QL diem THPT\QL diem THPT\obj\Debug\QL diem THPT.pdb
+F:\huan\Thuc tap nhom chieu thu 4\QL HS-GV\diemTHPT\QL diem THPT\QL diem THPT\obj\Debug\QL_diem_THPT.Main.frmThemLop.resources
+F:\huan\Thuc tap nhom chieu thu 4\QL HS-GV\diemTHPT\QL diem THPT\QL diem THPT\obj\Debug\QL_diem_THPT.Main.frmSuaLop.resources
+F:\huan\Thuc tap nhom chieu thu 4\QL HS-GV\diemTHPT\QL diem THPT\QL diem THPT\obj\Debug\QL_diem_THPT.Main.frmXoaLop.resources
