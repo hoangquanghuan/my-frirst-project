@@ -28,17 +28,7 @@ namespace QL_diem_THPT.Main
         {
             InitializeComponent();
         }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void frmMain_Load(object sender, EventArgs e)
         {
             dgvDShocsinh.DataSource = ch.hienthiHocSinh();
@@ -51,10 +41,6 @@ namespace QL_diem_THPT.Main
         {
             int i = dgvDShocsinh.CurrentRow.Index;
             frmThemHS f = new frmThemHS();
-            
-            
-
-
         }
 
         private void btnThemHS_Click(object sender, EventArgs e)
@@ -64,12 +50,6 @@ namespace QL_diem_THPT.Main
             f.ShowDialog();
             this.Show();
         }
-
-        private void btnThoatMain_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             frmSuaHS f = new frmSuaHS();
@@ -97,7 +77,7 @@ namespace QL_diem_THPT.Main
 
         private void labHienThiTTHS_Click(object sender, EventArgs e)
         {
-            frmHienThiTTHS f = new frmHienThiTTHS();
+            frmTimKiemHS f = new frmTimKiemHS();
             this.Hide();
             f.ShowDialog();
             this.Show();
@@ -174,13 +154,6 @@ namespace QL_diem_THPT.Main
             f.ShowDialog();
             this.Show();
         }
-
-        private void TapHocSinh_Click(object sender, EventArgs e)
-        {
-            //dvgPhong.DataSource = bus_phong.getPhong();
-
-        }
-
         private void btnThoatMain_Click_2(object sender, EventArgs e)
         {
             frmDangNhap f = new frmDangNhap();
@@ -199,9 +172,12 @@ namespace QL_diem_THPT.Main
             ptb2.Image = QL_diem_THPT.Properties.Resources.truong;
         }
 
-        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-
+            frmPhanCong f = new frmPhanCong();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
         }
     }
 }

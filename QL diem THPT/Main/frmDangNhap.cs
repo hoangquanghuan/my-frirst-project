@@ -23,11 +23,7 @@ namespace QL_diem_THPT.Main
             public static string Password;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
+        
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -41,10 +37,7 @@ namespace QL_diem_THPT.Main
             }
         }
 
-        private void frmDangNhap_Load(object sender, EventArgs e)
-        {
-            
-        }
+        
 
         private void lblQuenMK_Click(object sender, EventArgs e)
         {

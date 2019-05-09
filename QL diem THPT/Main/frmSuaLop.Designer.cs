@@ -244,7 +244,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "frmSuaLop";
             this.Text = "Sửa Lớp";
-            this.Load += new System.EventHandler(this.frmSuaLop_Load);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();

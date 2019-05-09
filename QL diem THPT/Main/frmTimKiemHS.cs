@@ -10,21 +10,24 @@ using System.Windows.Forms;
 
 namespace QL_diem_THPT.Main
 {
-    public partial class frmHienThiTTHS : Form
+    public partial class frmTimKiemHS : Form
     {
-        public frmHienThiTTHS()
+        public frmTimKiemHS()
         {
             InitializeComponent();
         }
 
-        private void btnThoatHTTT_Click(object sender, EventArgs e)
+        private void btnTimHS_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
         {
             frmMain f = new frmMain();
             this.Hide();
             f.ShowDialog();
             this.Close();
         }
-
-        
     }
 }

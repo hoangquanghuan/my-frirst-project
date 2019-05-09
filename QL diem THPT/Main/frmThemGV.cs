@@ -60,5 +60,10 @@ namespace QL_diem_THPT.Main
             f.ShowDialog();
             this.Close();
         }
+
+        private void ptbGV_Click(object sender, EventArgs e)
+        {
+            ptbGV.Image = QL_diem_THPT.Properties.Resources.giaovien;
+        }
     }
 }

@@ -51,10 +51,5 @@ namespace QL_diem_THPT.Main
                 MessageBox.Show("xin vui lòng nhập đầy đủ mã học sinh cần xóa");
             }
         }
-
-        private void frmXoaGV_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

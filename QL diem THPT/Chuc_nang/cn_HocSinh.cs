@@ -16,9 +16,9 @@ namespace QL_diem_THPT.Chuc_nang
         public DataTable hienthiHocSinh()
         {
             conn.Open();
-            //SqlDataAdapter da = new SqlDataAdapter("SELECT H.MAHS, TENLOP, HOHS, TENHS, NS, GT, DC, SDT, HOTEN_BO, NN_BO, HOTEN_ME, NN_ME FROM HOCSINH H,LOP L, CHITIET_LOP C WHERE H.MAHS = C.MAHS AND C.MALOP = L.MALOP", conn);
+            SqlDataAdapter da = new SqlDataAdapter("SELECT MAHS as 'Mã Học Sinh', HOHS+' '+TENHS AS 'Họ Tên Học Sinh', NS as 'Ngày Sinh', GT as 'Giới Tính', DC as 'Địa Chỉ', SDT as 'Số Điện Thoại', HOTEN_BO as 'Họ Tên Bố', NN_BO as 'Nghề Nghiệp Bố', HOTEN_ME as 'Họ Tên Mẹ', NN_ME as 'Nghề Nghiệp Mẹ' FROM HOCSINH", conn);
 
-            SqlDataAdapter da = new SqlDataAdapter("SELECT* FROM HOCSINH", conn);
+            //SqlDataAdapter da = new SqlDataAdapter("SELECT* FROM HOCSINH", conn);
             DataTable dt = new DataTable();
             
             da.Fill(dt);// đổ dữ liệu từ sql vào

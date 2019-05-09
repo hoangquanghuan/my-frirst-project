@@ -20,12 +20,6 @@ namespace QL_diem_THPT.Main
         {
             InitializeComponent();
         }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void btnThoatThem_Click(object sender, EventArgs e)
         {
             frmMain f = new frmMain();
@@ -61,15 +55,6 @@ namespace QL_diem_THPT.Main
 
             
         }
-
-        private void frmThemHS_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtMaHS_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

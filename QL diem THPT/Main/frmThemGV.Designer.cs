@@ -53,9 +53,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.ptbGV = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.palNhapLop.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbGV)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,9 +78,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(710, 90);
+            this.panel2.Controls.Add(this.ptbGV);
+            this.panel2.Location = new System.Drawing.Point(607, 90);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(261, 311);
+            this.panel2.Size = new System.Drawing.Size(267, 294);
             this.panel2.TabIndex = 11;
             // 
             // palNhapLop
@@ -336,6 +340,18 @@
             this.label1.Text = "Thông tin của giáo viên";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // ptbGV
+            // 
+            this.ptbGV.Image = global::QL_diem_THPT.Properties.Resources.giaovien;
+            this.ptbGV.InitialImage = global::QL_diem_THPT.Properties.Resources.giaovien;
+            this.ptbGV.Location = new System.Drawing.Point(0, 0);
+            this.ptbGV.Name = "ptbGV";
+            this.ptbGV.Size = new System.Drawing.Size(267, 294);
+            this.ptbGV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbGV.TabIndex = 0;
+            this.ptbGV.TabStop = false;
+            this.ptbGV.Click += new System.EventHandler(this.ptbGV_Click);
+            // 
             // frmThemGV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
@@ -347,10 +363,12 @@
             this.Name = "frmThemGV";
             this.Text = "Thêm Giáo Viên";
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.palNhapLop.ResumeLayout(false);
             this.palNhapLop.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbGV)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -382,5 +400,6 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox ptbGV;
     }
 }

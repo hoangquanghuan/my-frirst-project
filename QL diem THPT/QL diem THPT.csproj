@@ -50,10 +50,12 @@
     <Compile Include="Chay\c_HocSinh.cs" />
     <Compile Include="Chay\c_Lop.cs" />
     <Compile Include="Chay\c_MonHoc.cs" />
+    <Compile Include="Chay\c_PhanCong.cs" />
     <Compile Include="Chuc_nang\cn_GiaoVien.cs" />
     <Compile Include="Chuc_nang\cn_HocSinh.cs" />
     <Compile Include="Chuc_nang\cn_Lop.cs" />
     <Compile Include="Chuc_nang\cn_MonHoc.cs" />
+    <Compile Include="Chuc_nang\cn_PhanCong.cs" />
     <Compile Include="ConnectSQL\CSDL_QLHS-GV.cs" />
     <Compile Include="Main\frmDangNhap.cs">
       <SubType>Form</SubType>
@@ -78,6 +80,12 @@
     </Compile>
     <Compile Include="Main\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmPhanCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmPhanCong.Designer.cs">
+      <DependentUpon>frmPhanCong.cs</DependentUpon>
     </Compile>
     <Compile Include="Main\frmSuaGV.cs">
       <SubType>Form</SubType>
@@ -127,6 +135,12 @@
     <Compile Include="Main\frmThemMH.Designer.cs">
       <DependentUpon>frmThemMH.cs</DependentUpon>
     </Compile>
+    <Compile Include="Main\frmTimKiemHS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmTimKiemHS.Designer.cs">
+      <DependentUpon>frmTimKiemHS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main\frmXoaGV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +171,7 @@
     <Compile Include="SQLObject\HocSinh.cs" />
     <Compile Include="SQLObject\Lop.cs" />
     <Compile Include="SQLObject\MonHoc.cs" />
+    <Compile Include="SQLObject\PhanCong.cs" />
     <EmbeddedResource Include="Main\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -168,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmPhanCong.resx">
+      <DependentUpon>frmPhanCong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\frmSuaGV.resx">
       <DependentUpon>frmSuaGV.cs</DependentUpon>
@@ -192,6 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\frmThemMH.resx">
       <DependentUpon>frmThemMH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmTimKiemHS.resx">
+      <DependentUpon>frmTimKiemHS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\frmXoaGV.resx">
       <DependentUpon>frmXoaGV.cs</DependentUpon>
@@ -236,6 +257,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="anh\truong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="anh\giaovien.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

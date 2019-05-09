@@ -164,7 +164,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(487, 334);
             this.panel3.TabIndex = 7;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // txtNNBo
             // 
@@ -309,7 +308,6 @@
             this.txtMaHS.Name = "txtMaHS";
             this.txtMaHS.Size = new System.Drawing.Size(239, 32);
             this.txtMaHS.TabIndex = 48;
-            this.txtMaHS.TextChanged += new System.EventHandler(this.txtMaHS_TextChanged);
             // 
             // txtHoHS
             // 
@@ -456,7 +454,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "frmThemHS";
             this.Text = "Thêm Học Sinh";
-            this.Load += new System.EventHandler(this.frmThemHS_Load);
             this.panel1.ResumeLayout(false);
             this.palNhapLop.ResumeLayout(false);
             this.palNhapLop.PerformLayout();

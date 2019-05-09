@@ -38,7 +38,7 @@ namespace QL_diem_THPT.Main
                 {
                     GiaoVien gv = new GiaoVien(txtMaGV.Text, txtHoGV.Text, txtTenGV.Text, dtpNS.Value,
                         cbbGT.Text, txtDC.Text, txtSDT.Text, txtMaMH.Text);
-                    if (cgv.suaGiaoVien(l))
+                    if (cgv.suaGiaoVien(gv))
                     {
                         MessageBox.Show("sửa thành công");
                         frmMain f = new frmMain();

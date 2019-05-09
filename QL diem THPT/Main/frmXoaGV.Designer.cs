@@ -125,7 +125,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "frmXoaGV";
             this.Text = "Xóa Giáo Viên";
-            this.Load += new System.EventHandler(this.frmXoaGV_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

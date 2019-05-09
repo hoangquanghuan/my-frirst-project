@@ -32,6 +32,8 @@
             this.btnThoatThem = new System.Windows.Forms.Button();
             this.btnThemHS = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.txtMaMH = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtDC = new System.Windows.Forms.TextBox();
             this.txtMaGV = new System.Windows.Forms.TextBox();
@@ -48,8 +50,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtMaMH = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -114,6 +114,26 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(446, 626);
             this.panel4.TabIndex = 6;
+            // 
+            // txtMaMH
+            // 
+            this.txtMaMH.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtMaMH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaMH.Location = new System.Drawing.Point(168, 575);
+            this.txtMaMH.Multiline = true;
+            this.txtMaMH.Name = "txtMaMH";
+            this.txtMaMH.Size = new System.Drawing.Size(241, 32);
+            this.txtMaMH.TabIndex = 52;
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(19, 584);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(130, 23);
+            this.label6.TabIndex = 51;
+            this.label6.Text = "Mã môn học";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtSDT
             // 
@@ -281,26 +301,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Thông tin của giáo viên";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtMaMH
-            // 
-            this.txtMaMH.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtMaMH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaMH.Location = new System.Drawing.Point(168, 575);
-            this.txtMaMH.Multiline = true;
-            this.txtMaMH.Name = "txtMaMH";
-            this.txtMaMH.Size = new System.Drawing.Size(241, 32);
-            this.txtMaMH.TabIndex = 52;
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(19, 584);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(130, 23);
-            this.label6.TabIndex = 51;
-            this.label6.Text = "Mã môn học";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // frmSuaGV
             // 

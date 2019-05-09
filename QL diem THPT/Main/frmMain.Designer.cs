@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.ptb2 = new System.Windows.Forms.PictureBox();
             this.TapHocSinh = new System.Windows.Forms.TabPage();
             this.labHienThiTTHS = new System.Windows.Forms.Label();
             this.btnXoaHS = new System.Windows.Forms.Button();
@@ -41,6 +42,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgvDShocsinh = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnXoaGV = new System.Windows.Forms.Button();
             this.btnSuaGV = new System.Windows.Forms.Button();
             this.btnThemGV = new System.Windows.Forms.Button();
@@ -54,6 +56,7 @@
             this.dgvDSLop = new System.Windows.Forms.DataGridView();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.ptb1 = new System.Windows.Forms.PictureBox();
             this.btnXoaMH = new System.Windows.Forms.Button();
             this.btnSuaMH = new System.Windows.Forms.Button();
             this.btnThemMH = new System.Windows.Forms.Button();
@@ -64,11 +67,17 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnThoatMain = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.ptb2 = new System.Windows.Forms.PictureBox();
-            this.ptb1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).BeginInit();
             this.TapHocSinh.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDShocsinh)).BeginInit();
@@ -80,12 +89,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSLop)).BeginInit();
             this.tabPage5.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb1)).BeginInit();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSMonHoc)).BeginInit();
+            this.tapThoatMain.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -96,17 +110,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1250, 718);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(167, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(996, 47);
             this.label1.TabIndex = 1;
-            this.label1.Text = "HỆ THỐNG QUẢN LÝ HỌC SINH - GIÁO VIÊN";
+            this.label1.Text = "~~~*~~~HỆ THỐNG QUẢN LÝ HỌC SINH - GIÁO VIÊN~~~*~~~";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabControl1
@@ -124,7 +137,6 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1215, 647);
             this.tabControl1.TabIndex = 0;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -138,7 +150,18 @@
             this.tabPage1.Size = new System.Drawing.Size(1207, 611);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Mở Đầu";
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // ptb2
+            // 
+            this.ptb2.BackColor = System.Drawing.Color.White;
+            this.ptb2.Image = global::QL_diem_THPT.Properties.Resources.truong;
+            this.ptb2.Location = new System.Drawing.Point(17, 19);
+            this.ptb2.Name = "ptb2";
+            this.ptb2.Size = new System.Drawing.Size(1168, 571);
+            this.ptb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptb2.TabIndex = 0;
+            this.ptb2.TabStop = false;
+            this.ptb2.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // TapHocSinh
             // 
@@ -154,7 +177,6 @@
             this.TapHocSinh.Size = new System.Drawing.Size(1207, 611);
             this.TapHocSinh.TabIndex = 1;
             this.TapHocSinh.Text = "QL Học sinh";
-            this.TapHocSinh.Click += new System.EventHandler(this.TapHocSinh_Click);
             // 
             // labHienThiTTHS
             // 
@@ -215,21 +237,23 @@
             // 
             // dgvDShocsinh
             // 
+            this.dgvDShocsinh.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvDShocsinh.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvDShocsinh.BackgroundColor = System.Drawing.Color.White;
             this.dgvDShocsinh.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDShocsinh.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.dgvDShocsinh.Location = new System.Drawing.Point(4, 30);
+            this.dgvDShocsinh.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.dgvDShocsinh.Location = new System.Drawing.Point(0, 30);
             this.dgvDShocsinh.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDShocsinh.Name = "dgvDShocsinh";
             this.dgvDShocsinh.RowTemplate.Height = 24;
             this.dgvDShocsinh.Size = new System.Drawing.Size(1161, 464);
             this.dgvDShocsinh.TabIndex = 0;
-            this.dgvDShocsinh.UseWaitCursor = true;
             this.dgvDShocsinh.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDShocsinh_CellContentClick);
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Silver;
+            this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Controls.Add(this.btnXoaGV);
             this.tabPage3.Controls.Add(this.btnSuaGV);
             this.tabPage3.Controls.Add(this.btnThemGV);
@@ -240,6 +264,19 @@
             this.tabPage3.Size = new System.Drawing.Size(1207, 611);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "QL Giáo viên";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(919, 67);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(225, 23);
+            this.label3.TabIndex = 8;
+            this.label3.Text = ">>Phân công giảng dạy<<";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnXoaGV
             // 
@@ -277,6 +314,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dgvDSGiaoVien);
+            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(23, 93);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1161, 494);
@@ -286,6 +324,8 @@
             // 
             // dgvDSGiaoVien
             // 
+            this.dgvDSGiaoVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvDSGiaoVien.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvDSGiaoVien.BackgroundColor = System.Drawing.Color.White;
             this.dgvDSGiaoVien.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvDSGiaoVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -345,6 +385,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.dgvDSLop);
+            this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(23, 93);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(1161, 494);
@@ -366,11 +407,11 @@
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.Silver;
+            this.tabPage5.Controls.Add(this.panel8);
             this.tabPage5.Controls.Add(this.panel4);
             this.tabPage5.Controls.Add(this.btnXoaMH);
             this.tabPage5.Controls.Add(this.btnSuaMH);
             this.tabPage5.Controls.Add(this.btnThemMH);
-            this.tabPage5.Controls.Add(this.groupBox4);
             this.tabPage5.Location = new System.Drawing.Point(4, 32);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -383,17 +424,31 @@
             this.panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Controls.Add(this.ptb1);
-            this.panel4.Location = new System.Drawing.Point(118, 76);
+            this.panel4.Location = new System.Drawing.Point(74, 85);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(475, 353);
+            this.panel4.Size = new System.Drawing.Size(457, 336);
             this.panel4.TabIndex = 8;
+            // 
+            // ptb1
+            // 
+            this.ptb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ptb1.ErrorImage = null;
+            this.ptb1.Image = global::QL_diem_THPT.Properties.Resources.books_521812297;
+            this.ptb1.InitialImage = null;
+            this.ptb1.Location = new System.Drawing.Point(-3, 0);
+            this.ptb1.Name = "ptb1";
+            this.ptb1.Size = new System.Drawing.Size(459, 338);
+            this.ptb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptb1.TabIndex = 0;
+            this.ptb1.TabStop = false;
+            this.ptb1.Click += new System.EventHandler(this.ptb1_Click);
             // 
             // btnXoaMH
             // 
             this.btnXoaMH.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnXoaMH.Location = new System.Drawing.Point(615, 509);
+            this.btnXoaMH.Location = new System.Drawing.Point(414, 509);
             this.btnXoaMH.Name = "btnXoaMH";
-            this.btnXoaMH.Size = new System.Drawing.Size(163, 50);
+            this.btnXoaMH.Size = new System.Drawing.Size(142, 38);
             this.btnXoaMH.TabIndex = 7;
             this.btnXoaMH.Text = "Xóa";
             this.btnXoaMH.UseVisualStyleBackColor = true;
@@ -402,9 +457,9 @@
             // btnSuaMH
             // 
             this.btnSuaMH.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSuaMH.Location = new System.Drawing.Point(337, 509);
+            this.btnSuaMH.Location = new System.Drawing.Point(233, 509);
             this.btnSuaMH.Name = "btnSuaMH";
-            this.btnSuaMH.Size = new System.Drawing.Size(163, 50);
+            this.btnSuaMH.Size = new System.Drawing.Size(131, 38);
             this.btnSuaMH.TabIndex = 6;
             this.btnSuaMH.Text = "Sửa";
             this.btnSuaMH.UseVisualStyleBackColor = true;
@@ -415,7 +470,7 @@
             this.btnThemMH.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThemMH.Location = new System.Drawing.Point(50, 509);
             this.btnThemMH.Name = "btnThemMH";
-            this.btnThemMH.Size = new System.Drawing.Size(163, 50);
+            this.btnThemMH.Size = new System.Drawing.Size(144, 38);
             this.btnThemMH.TabIndex = 5;
             this.btnThemMH.Text = "Thêm";
             this.btnThemMH.UseVisualStyleBackColor = true;
@@ -424,32 +479,36 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.dgvDSMonHoc);
-            this.groupBox4.Location = new System.Drawing.Point(862, 0);
+            this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(0, 5);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(326, 580);
+            this.groupBox4.Size = new System.Drawing.Size(604, 560);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Danh sách";
             // 
             // dgvDSMonHoc
             // 
+            this.dgvDSMonHoc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvDSMonHoc.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvDSMonHoc.BackgroundColor = System.Drawing.Color.White;
             this.dgvDSMonHoc.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvDSMonHoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDSMonHoc.Location = new System.Drawing.Point(0, 29);
             this.dgvDSMonHoc.Name = "dgvDSMonHoc";
             this.dgvDSMonHoc.RowTemplate.Height = 24;
-            this.dgvDSMonHoc.Size = new System.Drawing.Size(326, 551);
+            this.dgvDSMonHoc.Size = new System.Drawing.Size(604, 531);
             this.dgvDSMonHoc.TabIndex = 0;
             // 
             // tapThoatMain
             // 
+            this.tapThoatMain.Controls.Add(this.panel2);
             this.tapThoatMain.Location = new System.Drawing.Point(4, 32);
             this.tapThoatMain.Name = "tapThoatMain";
             this.tapThoatMain.Padding = new System.Windows.Forms.Padding(3);
             this.tapThoatMain.Size = new System.Drawing.Size(1207, 611);
             this.tapThoatMain.TabIndex = 5;
-            this.tapThoatMain.Text = "Phân công";
+            this.tapThoatMain.Text = "QL Điểm";
             this.tapThoatMain.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -500,28 +559,71 @@
             this.label2.Text = "*Chú ý: Người dùng vui lòng ấn Thoát khi không làm việc nữa để trở về màn hình đă" +
     "ng nhập";
             // 
-            // ptb2
+            // panel2
             // 
-            this.ptb2.BackColor = System.Drawing.Color.White;
-            this.ptb2.Location = new System.Drawing.Point(17, 19);
-            this.ptb2.Name = "ptb2";
-            this.ptb2.Size = new System.Drawing.Size(1168, 571);
-            this.ptb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptb2.TabIndex = 0;
-            this.ptb2.TabStop = false;
-            this.ptb2.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.panel7);
+            this.panel2.Controls.Add(this.panel6);
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Location = new System.Drawing.Point(7, 7);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1194, 598);
+            this.panel2.TabIndex = 0;
             // 
-            // ptb1
+            // panel5
             // 
-            this.ptb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ptb1.InitialImage = null;
-            this.ptb1.Location = new System.Drawing.Point(3, 3);
-            this.ptb1.Name = "ptb1";
-            this.ptb1.Size = new System.Drawing.Size(473, 350);
-            this.ptb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptb1.TabIndex = 0;
-            this.ptb1.TabStop = false;
-            this.ptb1.Click += new System.EventHandler(this.ptb1_Click);
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Controls.Add(this.groupBox5);
+            this.panel5.Location = new System.Drawing.Point(611, 13);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(568, 567);
+            this.panel5.TabIndex = 0;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.Location = new System.Drawing.Point(17, 13);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(566, 336);
+            this.panel6.TabIndex = 1;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.Location = new System.Drawing.Point(17, 371);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(566, 209);
+            this.panel7.TabIndex = 2;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.dataGridView1);
+            this.groupBox5.Location = new System.Drawing.Point(0, 4);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(568, 563);
+            this.groupBox5.TabIndex = 0;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Danh Sách";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 30);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(568, 533);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel8.Controls.Add(this.groupBox4);
+            this.panel8.Location = new System.Drawing.Point(585, 26);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(604, 565);
+            this.panel8.TabIndex = 9;
             // 
             // frmMain
             // 
@@ -536,11 +638,13 @@
             this.panel1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).EndInit();
             this.TapHocSinh.ResumeLayout(false);
             this.TapHocSinh.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDShocsinh)).EndInit();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSGiaoVien)).EndInit();
             this.tabPage4.ResumeLayout(false);
@@ -548,13 +652,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSLop)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ptb1)).EndInit();
             this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSMonHoc)).EndInit();
+            this.tapThoatMain.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -598,5 +707,13 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox ptb1;
         private System.Windows.Forms.PictureBox ptb2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Panel panel8;
     }
 }

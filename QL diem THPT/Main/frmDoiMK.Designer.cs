@@ -162,7 +162,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmDoiMK";
             this.Text = "frmDoiMK";
-            this.Load += new System.EventHandler(this.frmDoiMK_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

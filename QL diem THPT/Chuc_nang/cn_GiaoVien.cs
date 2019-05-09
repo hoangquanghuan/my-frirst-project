@@ -15,7 +15,7 @@ namespace QL_diem_THPT.Chuc_nang
         public DataTable hienthiGiaoVien()
         {
             conn.Open();
-            SqlDataAdapter da = new SqlDataAdapter("SELECT MAGV, HOGV, TENGV, NS, GT, DC, SDT, TEN_MON FROM GIAOVIEN, MONHOC WHERE GIAOVIEN.MAMONHOC=MONHOC.MAMONHOC", conn);
+            SqlDataAdapter da = new SqlDataAdapter("SELECT MAGV as 'Mã Giáo Viên', HOGV+' '+TENGV as 'Họ Tên Giáo Viên', NS as 'Ngày Sinh', GT as 'Giáo Viên', DC as 'Địa Chỉ', SDT as 'Số Điện Thoại', TEN_MON as 'Môn Giảng Dạy' FROM GIAOVIEN, MONHOC WHERE GIAOVIEN.MAMONHOC=MONHOC.MAMONHOC", conn);
             DataTable dt = new DataTable();
 
             da.Fill(dt);// đổ dữ liệu từ sql vào

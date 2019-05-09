@@ -60,10 +60,5 @@ namespace QL_diem_THPT.Main
                 MessageBox.Show("xin vui lòng nhập mã lớp để sủa thông tin");
             }
         }
-
-        private void frmSuaLop_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

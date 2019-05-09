@@ -19,12 +19,7 @@ namespace QL_diem_THPT.Main
         {
             InitializeComponent();
         }
-
-        private void frmSuaMH_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void btnThoat_Click(object sender, EventArgs e)
         {
             frmMain f = new frmMain();

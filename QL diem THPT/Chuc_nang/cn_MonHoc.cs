@@ -15,7 +15,7 @@ namespace QL_diem_THPT.Chuc_nang
         public DataTable hienthiMonHoc()
         {
             conn.Open();
-            SqlDataAdapter da = new SqlDataAdapter("SELECT* FROM MONHOC", conn);
+            SqlDataAdapter da = new SqlDataAdapter("SELECT MAMONHOC as 'Mã Môn Học', TEN_MON as 'Tên Môn Học', HESO as 'Hệ số' FROM MONHOC", conn);
             DataTable dt = new DataTable();
 
             da.Fill(dt);// đổ dữ liệu từ sql vào

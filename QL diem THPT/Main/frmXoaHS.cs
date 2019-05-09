@@ -20,12 +20,7 @@ namespace QL_diem_THPT.Main
         {
             InitializeComponent();
         }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
+        
         private void btnThoatThem_Click(object sender, EventArgs e)
         {
             frmMain f = new frmMain();
@@ -57,11 +52,6 @@ namespace QL_diem_THPT.Main
                 MessageBox.Show("xin vui lòng nhập đầy đủ mã học sinh cần xóa");
             }
         
-        }
-
-        private void frmXoaHS_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -172,7 +172,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "frmSuaMH";
             this.Text = "Sửa Môn Học";
-            this.Load += new System.EventHandler(this.frmSuaMH_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

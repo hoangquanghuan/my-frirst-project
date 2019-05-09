@@ -80,7 +80,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(991, 772);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnThoat
             // 
@@ -122,7 +121,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(467, 346);
             this.panel3.TabIndex = 7;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // txtNNMe
             // 
@@ -173,7 +171,6 @@
             this.label13.TabIndex = 32;
             this.label13.Text = "Nghề nghiệp mẹ";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label12
             // 
@@ -184,7 +181,6 @@
             this.label12.TabIndex = 30;
             this.label12.Text = "Họ tên mẹ";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label11
             // 
@@ -195,7 +191,6 @@
             this.label11.TabIndex = 28;
             this.label11.Text = "Nghề nghiệp bố";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label10
             // 
@@ -206,7 +201,6 @@
             this.label10.TabIndex = 26;
             this.label10.Text = "Họ tên bố";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label9
             // 
@@ -218,7 +212,6 @@
             this.label9.TabIndex = 25;
             this.label9.Text = "Nhập thông tin thân nhân học sinh";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // panel4
             // 
@@ -240,7 +233,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(446, 528);
             this.panel4.TabIndex = 6;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // txtSDT
             // 
@@ -294,7 +286,6 @@
             this.label19.TabIndex = 41;
             this.label19.Text = "Số điện thoại";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label8
             // 
@@ -306,7 +297,6 @@
             this.label8.TabIndex = 24;
             this.label8.Text = "Nhập thông tin học sinh";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label17
             // 
@@ -317,7 +307,6 @@
             this.label17.TabIndex = 39;
             this.label17.Text = "Địa chỉ";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // label7
             // 
@@ -328,7 +317,6 @@
             this.label7.TabIndex = 22;
             this.label7.Text = "Tên học sinh";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label5
             // 
@@ -339,7 +327,6 @@
             this.label5.TabIndex = 17;
             this.label5.Text = "Giới tính";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // dtpNS
             // 
@@ -350,7 +337,6 @@
             this.dtpNS.Name = "dtpNS";
             this.dtpNS.Size = new System.Drawing.Size(232, 27);
             this.dtpNS.TabIndex = 16;
-            this.dtpNS.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label4
             // 
@@ -361,7 +347,6 @@
             this.label4.TabIndex = 15;
             this.label4.Text = "Ngày sinh";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtHoHS
             // 
@@ -372,7 +357,6 @@
             this.txtHoHS.Name = "txtHoHS";
             this.txtHoHS.Size = new System.Drawing.Size(232, 33);
             this.txtHoHS.TabIndex = 14;
-            this.txtHoHS.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label20
             // 
@@ -383,7 +367,6 @@
             this.label20.TabIndex = 12;
             this.label20.Text = "Họ học sinh";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // label3
             // 
@@ -395,7 +378,6 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Các thông tin có thể sửa:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel2
             // 
@@ -406,7 +388,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(506, 89);
             this.panel2.TabIndex = 3;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // txtMaHS
             // 
@@ -416,7 +397,6 @@
             this.txtMaHS.Name = "txtMaHS";
             this.txtMaHS.Size = new System.Drawing.Size(278, 36);
             this.txtMaHS.TabIndex = 15;
-            this.txtMaHS.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -427,7 +407,6 @@
             this.label2.TabIndex = 14;
             this.label2.Text = "Mã học sinh";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -439,7 +418,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Vui lòng nhập mã học sinh của học sinh cần sửa lại thông tin:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmSuaHS
             // 
@@ -449,7 +427,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "frmSuaHS";
             this.Text = "Sửa Học Sinh";
-            this.Load += new System.EventHandler(this.frmSuaHS_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

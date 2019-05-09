@@ -23,6 +23,10 @@ namespace QL_diem_THPT.Chay
             return gv.themGiaoVien(g);
         }
 
+        public bool suaGiaoVien(GiaoVien g)
+        {
+            return gv.suaGiaoVien(g);
+        }
 
 
         public bool xoaGiaoVien(GiaoVien g)

@@ -170,7 +170,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên Người Dùng:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmDangNhap
             // 
@@ -183,7 +182,6 @@
             this.Name = "frmDangNhap";
             this.Text = "frmDangNhap";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmDangNhap_FormClosing);
-            this.Load += new System.EventHandler(this.frmDangNhap_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
